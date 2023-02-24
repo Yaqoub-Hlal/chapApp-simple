@@ -1,0 +1,74 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #EEE;
+}
+.login-box{
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    padding: 30px 30px 20px;
+    border-radius: 10px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box .header {
+    margin-bottom: 10px;
+}
+.login-box .header h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #C92C6D ;
+}
+.login-box .header p{
+    text-align: center;
+    margin-top: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.login-box .user-inputs .user-input {
+    border: none;
+    outline: none;
+    padding: 10px 7px;
+    width: 100%;
+    margin: 10px 0;
+    border-bottom: solid black 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.209);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+.login-box .login-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+.login-box .login-button button {
+    border: none;
+    background-color: #C92C6D;
+    padding: 10px 7px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.login-box .register-check{
+    margin-top: 10px;
+}
+.login-box .register-check p {
+    text-align: center;
+    font-size: 13px;
+}
+.login-box .register-check span:hover {
+    cursor: pointer;
+}

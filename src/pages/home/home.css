@@ -1,0 +1,13 @@
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .container {
+    border-radius: 10px ;
+    width: 1000px;
+    height: 600px;
+    background-color:  #332C39 ;
+    display: flex;
+}
